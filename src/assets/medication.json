@@ -1,0 +1,96 @@
+{"medications":[
+{"1":[
+    {
+      "label":"Delix 100AS",
+      "amount":"1 Tabl.",
+      "administrationTime":"2020-07-07T09:00:00",
+      "status":"given",
+      "comment":""
+
+    },
+    {
+      "label":"Delix 100AS",
+      "amount":"1 Tabl.",
+      "administrationTime":"2020-07-07T12:00:00",
+      "status":"denied",
+      "comment":"Patient bewusstlos"
+    },
+    {
+      "label":"Ramipril 10mg",
+      "amount":"1 Tabl.",
+      "administrationTime":"2020-07-14T12:00:00",
+      "status":"open",
+      "comment":""
+    },
+    {
+      "label":"Ramipril 10mg",
+      "amount":"1 Tabl.",
+      "administrationTime":"2020-07-17T12:00:00",
+      "status":"open",
+      "comment":""
+    }
+  ],
+  "2":[
+    {
+      "label":"Clexane",
+      "amount":"2 Spritzen",
+      "administrationTime":"2020-06-07T19:00:00",
+      "status":"given",
+      "comment":""
+
+    },
+    {
+      "label":"Xalatan Augentropfen",
+      "amount":"1 Tropen",
+      "administrationTime":"2020-06-07T12:00:00",
+      "status":"given",
+      "comment":""
+    },
+    {
+      "label":"Xalatan Augentropfen",
+      "amount":"1 Tropfen",
+      "administrationTime":"2020-07-14T16:00:00",
+      "status":"given",
+      "comment":""
+    },
+    {
+      "label":"Clexane",
+      "amount":"1 Spritzen",
+      "administrationTime":"2020-07-11T10:00:00",
+      "status":"open",
+      "comment":""
+    }
+  ],
+  "3":[
+    {
+      "label":"Hormon 200er",
+      "amount":"2 Spritzen",
+      "administrationTime":"2020-06-07T19:00:00",
+      "status":"given",
+      "comment":""
+
+    },
+    {
+      "label":"Beta-Blocker",
+      "amount":"1 Tropen",
+      "administrationTime":"2020-06-07T12:00:00",
+      "status":"given",
+      "comment":""
+    },
+    {
+      "label":"Vitamin-C",
+      "amount":"1 Tabl.",
+      "administrationTime":"2020-07-14T16:00:00",
+      "status":"given",
+      "comment":""
+    },
+    {
+      "label":"Clexane",
+      "amount":"1 Spritzen",
+      "administrationTime":"2020-07-11T10:00:00",
+      "status":"open",
+      "comment":""
+    }
+  ]
+  }
+]}

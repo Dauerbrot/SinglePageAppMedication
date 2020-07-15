@@ -1,0 +1,15 @@
+{"patient":[{
+    "id":"1",
+    "firstName":"Ezekiel",
+    "lastName":"Galadirel"
+  },{
+    "id":"2",
+    "firstName":"Johnson",
+    "lastName":"Hunter"
+  },{
+    "id":"3",
+    "firstName":"Finch",
+    "lastName":"Rathenau"
+  }
+  ]
+}
