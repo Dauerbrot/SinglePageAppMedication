@@ -24,7 +24,7 @@ Erstellung einer Liste mit der Auswahl der aktiven Patienten in einem System:
 Aufgabe 2)
 Erstellung eines Master Details Views mit den Daten des Patienten.
 - Auslesen des Patientens, welcher aus der Patientenliste gewählt wurde und den jeweiligen Patienten mit seinen Informationen aus der patients.js über  "patientlistmock.service" darstellen/präsentieren
-- Die Information sollte in einem Header immer sichtbar sein
+- Die Information sollte in einem Header/Detailed View für den Benutzer immer sichtbar sein
 
 =================================
 

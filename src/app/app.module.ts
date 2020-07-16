@@ -8,9 +8,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PatientListService, PatientListMockService } from './patientlistmock.service';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpClientModule, NgbModule  ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule, NgbModule ],
   declarations: [ AppComponent, HelloComponent ],
   providers: [{provide: PatientListService, useClass: PatientListMockService}],
   bootstrap:    [ AppComponent ]

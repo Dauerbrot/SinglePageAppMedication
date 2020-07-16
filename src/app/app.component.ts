@@ -7,7 +7,7 @@ import { PatientListMockService, PatientListService } from './patientlistmock.se
   styleUrls: [ './app.component.css' ],
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  name = 'Projekt Medikations-Simulator'
 
   constructor(patientService: PatientListService){
     console.log('es geht los')
