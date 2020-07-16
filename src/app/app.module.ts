@@ -10,7 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PatientListService, PatientListMockService } from './patientlistmock.service';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, HttpClientModule, NgbModule.forRoot()  ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule, NgbModule  ],
   declarations: [ AppComponent, HelloComponent ],
   providers: [{provide: PatientListService, useClass: PatientListMockService}],
   bootstrap:    [ AppComponent ]
