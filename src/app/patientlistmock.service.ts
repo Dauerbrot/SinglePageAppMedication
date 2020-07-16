@@ -3,9 +3,18 @@ import { Observable } from "rxjs";
 import { Injectable } from "@angular/core";
 import { map } from "rxjs/operators";
 
+
+export abstract class PatientListService {
+  abstract getPatientList(): Observable<any>;
+  abstract getPatientById(id: string): Observable<any>;
+  abstract getMedicationByPatientId(patientId: string): Observable<any>;
+}
+
 @Injectable()
-export class PatientListMockService {
-  constructor(private http: HttpClient) {}
+export class PatientListMockService extends PatientListService {
+  constructor(private http: HttpClient) {
+    super();
+  }
 
   getPatientList(): Observable<any> {
     return this.http.get("/assets/patientlist.json");

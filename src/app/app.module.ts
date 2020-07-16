@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { PatientListService, PatientListMockService } from './patientlistmock.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule  ],
   declarations: [ AppComponent, HelloComponent ],
+  providers: [{provide: PatientListService, useClass: PatientListMockService}],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
